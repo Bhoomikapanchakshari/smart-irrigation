@@ -45,6 +45,7 @@ void loop(){
     digitalWrite(RELAY_PIN,LOW);
     
     digitalWrite(LED_PIN2,LOW);
+   noTone(BUZZER_PIN);
     lcd.print("MOTOR OFF");
     delay(5000);
     lcd.clear();
